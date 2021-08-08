@@ -1,0 +1,49 @@
+.quarterHour {
+    /*border-top: 1px solid #b3b3b3;*/
+    /*border-bottom: 1px dotted #b3b3b3;*/
+    /*color: black;*/
+    /*font-weight: bold;*/
+}
+
+.quarterMinutes {
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px dotted #b3b3b3;
+    color: grey;
+}
+
+.quarterHour, .quarterMinutes {
+    border-right: 1px solid #b3b3b3;
+    height: 15px;
+    width: 60px;
+    padding: 4px 2px 2px 4px;
+    font-size: 12px;
+}
+
+.quarterHour:nth-child(4n), .quarterMinutes :nth-child(4n) {
+    border-top: 1px solid #b3b3b3;
+    color: red;
+    font-weight: bold;
+}
+
+.quarter {
+    border-right: 1px solid #b3b3b3;
+    border-bottom: 1px dotted #b3b3b3;
+    color: grey;
+    /*height: 15px;*/
+    /*width: 65px;*/
+    padding: 4px 2px 2px 4px;
+    font-size: 12px;
+    grid-column-start: 1;
+}
+
+.quarter:nth-child(4n +1) {
+    border-top: 1px solid #b3b3b3;
+    color: black;
+    font-weight: bold;
+}
+
+.content {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}

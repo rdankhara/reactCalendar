@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {CalenderContainer} from "./calendar/view/calenderContainer";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CalenderContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );

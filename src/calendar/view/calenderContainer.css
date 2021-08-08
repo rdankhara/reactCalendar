@@ -1,0 +1,30 @@
+.calenderContainer {
+    position: relative;
+    display: grid;
+    width: 700px;
+    background: antiquewhite;
+    margin: 20px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    grid-column-gap: 1px;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: repeat(48, 1fr);
+}
+
+.dayTimeContainer {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 25px;
+    grid-gap: 1px;
+}
+
+.event {
+    font-size: 10px;
+    font-weight: bold;
+    background: #97b364;
+    border: 1px solid white;
+    padding: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+}

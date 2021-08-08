@@ -1,0 +1,57 @@
+[
+  {
+    "start": 560,
+    "end": 575,
+    "subject": "Software Daily Stand up"
+  },
+  {
+    "start": 600,
+    "end": 660,
+    "subject": "Sprint Retrospective"
+  },
+  {
+    "start": 780,
+    "end": 840,
+    "subject": "Team Lunch"
+  },
+  {
+    "start": 580,
+    "end": 600,
+    "subject": "Coffee Time"
+  },
+  {
+    "start": 600,
+    "end": 630,
+    "subject": "React Developer Interview"
+  },
+  {
+    "start": 600,
+    "end": 720,
+    "subject": "Townhall"
+  },
+  {
+    "start": 700,
+    "end": 750,
+    "subject": "Zoomba"
+  },
+  {
+    "start": 1080,
+    "end": 1130,
+    "subject": "RPM"
+  },
+  {
+    "start": 1230,
+    "end": 1300,
+    "subject": "Body combat"
+  },
+  {
+    "start": 1140,
+    "end": 1170,
+    "subject": "HIIT"
+  },
+  {
+    "start": 900,
+    "end": 960,
+    "subject": "New Joiner Introduction"
+  }
+]
